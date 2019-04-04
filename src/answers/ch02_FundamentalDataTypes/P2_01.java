@@ -1,4 +1,4 @@
-package test.ch02;
+package answers.ch02_FundamentalDataTypes;
 
 /**
  *
