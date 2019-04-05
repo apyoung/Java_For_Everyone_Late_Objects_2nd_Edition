@@ -7,12 +7,17 @@ package answers.ch01_Introduction;
 
 public class P1_04
 {
-
   public static void main(String[] args)
   {
-    System.out.println("Balance (0): " + 1000.0);
-    System.out.println("Balance (1): " + 1000 * 1.05);
-    System.out.println("Balance (2): " + 1000 * 1.05 * 1.05);
-    System.out.println("Balance (3): " + 1000 * 1.05 * 1.05 * 1.05);
+    double balance = 1000;
+    double interest = 0.05;
+
+    System.out.printf("Balance for year 0 is %.2f \n", balance);
+
+    for (int year = 1; year <= 3; year++)
+    {
+      balance = balance + balance * interest;
+      System.out.printf("Balance for year %d is %.2f \n", year, balance);
+    }
   }
 }

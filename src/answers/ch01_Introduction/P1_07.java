@@ -1,13 +1,11 @@
 package answers.ch01_Introduction;
 
 /**
- * Write a program that prints a face similar to (but different from) the following: ///// +"""""+
- * (| o o |) |  ^  | | ‘-’ | +-----+
+ * Write a program that prints a face similar using ascii characters
  */
 
 public class P1_07
 {
-
   public static void main(String[] args)
   {
     System.out.println("    ///// ");
@@ -16,6 +14,8 @@ public class P1_07
     System.out.println("   |  ^  |  ");
     System.out.println("   | \'_\' | ");
     System.out.println("   +-----+ ");
+
+    System.out.println();
 
     System.out.println("  \\|||||/  ");
     System.out.println(" ( ~   ~ ) ");
